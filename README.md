@@ -1,2 +1,11 @@
 # ExerciciosJS
-(Estudo) Exercícios com console.log, Const e Let, Let e Var, Operadoes aritiméticos, strings, Arrays e valores mutáveis
+
+## 📚:
+
+-   [x] console.log;
+-   [x] Const e let;
+-   [x] Let e var;
+-   [x] Operadores aritiméticos;
+-   [x] strings;
+-   [x] Arrays;
+-   [x] valores mutáveis;
