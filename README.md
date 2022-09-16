@@ -9,3 +9,4 @@
 -   [x] strings;
 -   [x] Arrays;
 -   [x] valores mutáveis;
+-   [x] Template strings;
