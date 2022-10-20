@@ -45,3 +45,10 @@ console.log(outraString.replace(/r/g, '#'));
 
 console.log(outraString.length);
 // para ver o tamanho da string (35 caracteres);
+
+//O Split (dividir) é usado para dividir uma string, se quero dividir pelo espaço é só colocar um espaço la dentro;
+console.log(outraString.split(' '));
+
+//toUpperCase deixa toda a escrita em maiusculo;
+//toLowerCase tudo em minúsculo
+console.log(outraString.toUpperCase(' '));

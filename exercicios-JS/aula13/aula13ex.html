@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios aula 13</title>
+</head>
+<body>
+    <script>
+        const nome = prompt('Digite seu nome completo:')
+        document.body.innerHTML += `O seu nome é: <strong>${nome}</strong><br/>`;
+        document.body.innerHTML += `Seu nome tem <strong>${nome.length}</strong> letras<br/>`;
+        //Para pegar o indice da segunda letra (1) posso utiliar o charAt(1) ou nome[1]    
+        document.body.innerHTML += `A segunda letra do seu nome é: <strong>${nome[1]}</strong><br/>`;
+        document.body.innerHTML += `Qual o primeiro índice da letra "A" no seu nome? <strong>${nome.indexOf('a')}</strong><br/>`;
+        document.body.innerHTML += `Qual o último índice da letra "A" no seu nome? <strong>${nome.lastIndexOf('a')}</strong><br/>`;
+        //O Slice eu posso definir a numeração de tras pra frente com o valor negativo. slice = fatiar    
+        document.body.innerHTML += `As últimas 3 letras do seu nome são: <strong>${nome.slice(-3)}</strong><br/>`;
+        document.body.innerHTML += `As Palavras do seu nome são: <strong>${nome.split(' ')}</strong><br/>`;
+        document.body.innerHTML += `Seu nome com letras maiúsculas: <strong>${nome.toUpperCase()}</strong><br/>`;
+        document.body.innerHTML += `Seu nome com letras minúsculas: <strong>${nome.toLowerCase()}</strong><br/>`;
+    </script>
+</body>
+</html>
